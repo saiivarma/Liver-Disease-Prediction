@@ -1,5 +1,5 @@
 # Liver-Disease-Prediction
-Liver disease prediction model using ILPD dataset and Multilayered perceptron
+Liver disease prediction model using ILPD dataset and Multilayered perceptron and XGBoost
 
 ## Dataset Description
 
@@ -11,3 +11,7 @@ Liver disease prediction model using ILPD dataset and Multilayered perceptron
 
 
 ## Multilayered Perceptron with 1 hidden layer.
+
+
+## Multilayered perceptron with 2 hidden layers to be added
+## XGBoost Model yet to be added
