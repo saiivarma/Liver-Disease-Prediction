@@ -16,3 +16,4 @@ Liver disease prediction model using ILPD dataset and Multilayered perceptron an
 ### Multilayered perceptron with 2 hidden layer.
 
 ### XGBoost Model yet to be added
+    Parameters to be tweaked,attained 69 percentage accuracy for default parametres and learning rate 0.05 
