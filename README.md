@@ -25,3 +25,4 @@ Liver disease prediction model using ILPD dataset and Multilayered perceptron an
     Parameters to be tweaked,attained 72 percentage accuracy for default parametres and learning rate 0.05.
     
  Need to calculate the normalising variables for the testing.
+Add the GUI
