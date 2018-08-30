@@ -20,7 +20,7 @@ Liver disease prediction model using ILPD dataset and Multilayered perceptron an
     
 ### Multilayered perceptron with 2 hidden layer(keras).
     Attained 74% accuracy with relu activation function.
-    Droupout layer to be added to check the variation in the accuracy.
+    Attained 75% accuracy with the tanh activation function.
 
 ### XGBoost Model yet to be updated
     Parameters to be tweaked,attained 72 percentage accuracy for default parametres and learning rate 0.05.
