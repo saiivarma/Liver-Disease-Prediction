@@ -1,0 +1,40 @@
+{
+
+	"particles":{
+		"number":{
+			"value":100
+		},
+		"size":{
+			"value":5
+		},
+		"line_linked":{
+			"enable":true,
+			"distance":170
+		},
+		"move":{
+			"enable":true,
+			"speed":100
+		}
+	},
+		"interactivity":{
+			"events":{
+				"onhover":{
+					"enable":true,
+					"mode":"repulse"
+
+				},
+				"onclick":{
+
+				}
+			},
+				"modes":{
+					"repulse":{
+						"distance":60,
+						"duration":0.4
+
+				}
+
+				}
+
+			}
+}

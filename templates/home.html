@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Liver Disease Prediction</title>
+	<link rel="stylesheet"  href="{{ url_for('static',filename='styles/homep.css') }}">
+</head>
+<body>
+<div id="particles">	<div id='title'>
+		<h1>Liver Disease Prediction</h1>
+	</div>
+	<div id='pic'>
+		<img src="static/pic1.png" height="605px">
+	</div>
+	<div id='inp'>
+		<form action="http://127.0.0.1:5000/" method="post">
+			<ul id='opt'>
+				<select name="Gender">
+					<option  value="1">Male</option>
+					<option  value='0'>Female</option>
+				</select>
+				<input id="age" type="number" name="Age" placeholder="Age">
+			</ul>
+			<ul><input type="text" name="TB"   placeholder="TB">
+				<input type="text" name="DB"   placeholder="DB">
+				<input type="text" name="AAP"  placeholder="AAP">
+				<input type="text" name="SGPT" placeholder="SGPT"></ul>
+			<ul><input type="text" name="SGOT" placeholder="SGOT">
+				<input type="text" name="TP"   placeholder="TP">
+				<input type="text" name="ALB"  placeholder="ALB">
+				<input type="text" name="AGR"  placeholder="AG Ratio"></ul>
+				<input type="submit" name="submit" id="sub">
+		</form>
+		<div id="res"><h2>Pobability Of Liver Failure:{{pred[0][0]}}%</h2></div>
+	</div>
+</div>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+	<script type="text/javascript">
+		particlesJS.load('particles','static/particles.json',function(){
+			console.log("loaded");
+		});
+	</script>
+</body>
+</html>

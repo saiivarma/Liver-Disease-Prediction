@@ -1,0 +1,53 @@
+body {
+
+	background-color: black;
+	color: white;
+	font-family: comic sans MS;
+}
+#particles{
+	height: auto;
+	width: auto;
+}
+#age{
+	border-radius: 6px;
+	height: 22px;
+}
+select{
+	height: 25px;
+}
+#pic{
+	position: absolute;
+	margin-top: 130px;
+}
+h1{
+	margin-left: 600px;
+	color: white;
+	position: absolute;
+}
+#inp{
+	margin-left: 40%;
+	margin-top: 15%;
+	position: absolute;
+}
+#opt{
+	margin-left: 32%;
+}
+
+input{
+
+	height: 30px;
+	width: 50px;
+	margin-right: 100px;
+	margin-bottom: 60px;
+	border-color: #0c1fb2;
+	border-style: solid;
+	border-radius: 18px;
+	text-align: center;
+}
+#sub{
+	margin-left: 40%;
+	height: 30px;
+	width: 65px;
+	border-radius: 7px;
+	background-color: white;
+}
