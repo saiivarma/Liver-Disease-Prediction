@@ -25,5 +25,6 @@ Liver disease prediction model using ILPD dataset and Multilayered perceptron an
 ### XGBoost Model yet to be updated
     Parameters to be tweaked,attained 72 percentage accuracy for default parametres and learning rate 0.05.
     
- Need to calculate the normalising variables for the testing.
-Add the GUI
+## Flask
+    used flask for the integration of the model with webpage
+    used particle.js to create the particle effect.
